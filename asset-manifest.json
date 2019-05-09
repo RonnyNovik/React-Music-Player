@@ -1,13 +1,13 @@
 {
-  "main.css": "/RonnyNovik/React-Music-Player/static/css/main.95645381.chunk.css",
-  "main.js": "/RonnyNovik/React-Music-Player/static/js/main.b340295c.chunk.js",
-  "main.js.map": "/RonnyNovik/React-Music-Player/static/js/main.b340295c.chunk.js.map",
-  "runtime~main.js": "/RonnyNovik/React-Music-Player/static/js/runtime~main.138f98c1.js",
-  "runtime~main.js.map": "/RonnyNovik/React-Music-Player/static/js/runtime~main.138f98c1.js.map",
-  "static/js/2.0ca261a4.chunk.js": "/RonnyNovik/React-Music-Player/static/js/2.0ca261a4.chunk.js",
-  "static/js/2.0ca261a4.chunk.js.map": "/RonnyNovik/React-Music-Player/static/js/2.0ca261a4.chunk.js.map",
-  "index.html": "/RonnyNovik/React-Music-Player/index.html",
-  "precache-manifest.bf09041067b85db7e2e3693a37b093c5.js": "/RonnyNovik/React-Music-Player/precache-manifest.bf09041067b85db7e2e3693a37b093c5.js",
-  "service-worker.js": "/RonnyNovik/React-Music-Player/service-worker.js",
-  "static/css/main.95645381.chunk.css.map": "/RonnyNovik/React-Music-Player/static/css/main.95645381.chunk.css.map"
+  "main.css": "/React-Music-Player/static/css/main.95645381.chunk.css",
+  "main.js": "/React-Music-Player/static/js/main.b750fb5a.chunk.js",
+  "main.js.map": "/React-Music-Player/static/js/main.b750fb5a.chunk.js.map",
+  "runtime~main.js": "/React-Music-Player/static/js/runtime~main.abf95913.js",
+  "runtime~main.js.map": "/React-Music-Player/static/js/runtime~main.abf95913.js.map",
+  "static/js/2.0ca261a4.chunk.js": "/React-Music-Player/static/js/2.0ca261a4.chunk.js",
+  "static/js/2.0ca261a4.chunk.js.map": "/React-Music-Player/static/js/2.0ca261a4.chunk.js.map",
+  "index.html": "/React-Music-Player/index.html",
+  "precache-manifest.e47d67492ce25f8dc9b36193c5facf2c.js": "/React-Music-Player/precache-manifest.e47d67492ce25f8dc9b36193c5facf2c.js",
+  "service-worker.js": "/React-Music-Player/service-worker.js",
+  "static/css/main.95645381.chunk.css.map": "/React-Music-Player/static/css/main.95645381.chunk.css.map"
 }

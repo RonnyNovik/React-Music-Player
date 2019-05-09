@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/RonnyNovik/React-Music-Player/precache-manifest.bf09041067b85db7e2e3693a37b093c5.js"
+  "/React-Music-Player/precache-manifest.e47d67492ce25f8dc9b36193c5facf2c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/RonnyNovik/React-Music-Player/index.html", {
+workbox.routing.registerNavigationRoute("/React-Music-Player/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
