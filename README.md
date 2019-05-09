@@ -6,4 +6,5 @@
 3. After you installed the necessary modules, run npm start
 
 Want to check out the app without installing? [Click Here!](https://ronnynovik.github.io/React-Music-Player/) 
+
 **Happy Coding! :)**
