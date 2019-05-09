@@ -1,0 +1,102 @@
+/* --- KEYFRAMES --- */
+
+@keyframes iconToggled {
+    0%{
+        transform: scaleX(1) scaleY(1);
+       
+    }
+    50%{
+       transform: scaleX(1.4) scaleY(1.4);
+   }
+    100%{
+       transform: scaleX(1) scaleY(1);
+   }
+}
+/* --- BUTTON STYLES --- */
+button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding:0;
+}
+.ui-icon{
+    color:  hsl(0, 1%, 76%);
+    font-size: 0.6rem;
+    transition: 0.2s;
+}
+.player-flow-control:hover, .ui-icon:hover{
+    color: #eb3349;
+}
+.ui-icon-toggled{
+    color: #eb3349 !important;
+    animation: iconToggled 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+.player-flow-control{
+   font-size: 1.1rem; 
+   color: hsl(0, 1%, 76%);
+   transition: 0.2s;
+}
+.player-switch-control{
+    border-radius: 50%;
+    background: hsl(0, 1%, 76%);
+    width: 4vh;
+    height: 4vh;
+    color: white;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+.player-switch-control:hover{
+    color: #eb3349;
+    border: 3px solid #eb3349;
+    background:none;
+
+}
+.player-play-control{
+    border-radius: 50%;
+    width: 8vh;
+    height: 8vh;
+    background: linear-gradient(45deg, #eb3349, #f45c43);
+    box-shadow: 0px 2px 8px 0px rgba(235,51,72,0.48);
+    transition: 0.2s;
+    color:white;
+}
+.player-play-control:hover{
+    box-shadow: 0px 5px 15px 0px rgba(235,51,72,0.53);
+}
+
+/* --- BUTTON MEDIA QUERIES --- */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .player-play-control{
+        width: 12vh;
+        height: 12vh;
+        font-size: 1.2rem;
+    }
+    .player-switch-control{
+        width: 6vh;
+        height: 6vh;
+        font-size: 1.3rem;
+    }
+    .player-flow-control{
+        font-size: 1.3rem;
+    }
+}
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+    .player-play-control{
+        width: 14vh;
+        height: 14vh;
+        font-size: 1.4rem;
+    }
+    .player-switch-control{
+        width: 7vh;
+        height: 7vh;
+        font-size: 1.4rem;
+    }
+    .player-flow-control{
+        font-size: 1.4rem;
+    }
+}

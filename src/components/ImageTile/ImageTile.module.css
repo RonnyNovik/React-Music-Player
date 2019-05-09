@@ -1,0 +1,27 @@
+.ImageTile{
+    width: 28vh;
+    height: 28vh;
+    margin: 3vh auto 3vh auto;
+    -webkit-box-shadow: 0px 22px 58px -26px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 22px 58px -26px rgba(0,0,0,0.67);
+    box-shadow: 0px 22px 58px -26px rgba(0,0,0,0.67);
+    border-radius: 5px;
+
+}
+img{
+    max-width: 28vh;
+    max-height: 28vh;
+    border-radius: 5px;
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    .ImageTile{
+        width: 40vh;
+        height: 40vh;
+    }
+    img{
+        max-width: 40vh;
+        max-height: 40vh;
+    }
+}

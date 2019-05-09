@@ -1,0 +1,26 @@
+.TopBar{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.TopBar Button{
+   margin-top:2vh !important;
+}
+.SongInfo{
+    display: flex;
+    justify-content: center;  
+}
+.PlayerControls{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1vh;
+    transition-delay: 700ms;
+}
+.PlayButton{
+    background: blue;
+}
+.activeButton{
+    color: white;
+}
+

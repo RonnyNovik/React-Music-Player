@@ -1,0 +1,37 @@
+{
+  "name": "music-player",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ronnynovik.github.io/React-Music-Player/",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-fontawesome": "^1.6.1",
+    "react-h5-audio-player": "^1.1.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8",
+    "react-transition-group": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
