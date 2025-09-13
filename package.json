@@ -6,7 +6,7 @@
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "gh-pages": "^2.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
